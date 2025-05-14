@@ -1,0 +1,503 @@
+
+/* navbar start */
+
+
+.navbar-nav .nav-item a{
+
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+
+
+    /* যদি লেখার স্টাইল পরির্বতন করতে হয় তবে এই কমেন্ট তুলেই দিলে হবে  */
+
+  /* font-weight: 800;
+  font-family: "Caveat", cursive;
+  font-optical-sizing: auto;
+  font-size: 20px;
+  font-style: normal; */
+  
+}
+
+.navbar-nav .nav-item a:hover{
+    box-shadow: 0px 0px 5px yellow;
+    border-radius: 10px 20px;
+
+}
+
+.container-fluid img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+
+/* java script watch start */
+
+
+    .navbar-brand, .clock-box {
+      color: white;
+    }
+
+    .clock-box {
+      text-align: left;
+      font-family: 'Segoe UI', sans-serif;
+      line-height: 1.2;
+    }
+
+    .clock-time {
+      font-size: 16px;
+      font-weight: 600;
+    }
+
+    .clock-date {
+      font-size: 13px;
+    }
+
+
+/* java script watch end */
+
+
+
+/* navbar end */
+
+
+
+
+/* banner start */
+
+.carousel-inner .carousel-item img{
+    height: 80vh;
+    object-fit: cover;
+    background-size: cover;
+    background-position: center;
+
+}
+
+
+.ccc-ccc h1{
+    color: rgb(0, 225, 255);
+    font-weight: 900;
+}
+
+.ccc-ccc p{
+    font-weight: bold;
+    color: rgb(0, 225, 255);
+    font-size: 20px;
+
+}
+
+.ccc-ccc a{
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    background-color: yellow;
+    padding: 5px 15px;
+    border-radius: 25px;
+    color: red;
+    
+}
+
+.ccc-ccc a:hover{
+    background-color: blue;
+    color: white;
+    box-shadow: 0px 0px 5px;
+    
+}
+
+
+/* banner end */
+
+
+/* menucard :start */
+
+.menucard_section{
+    box-shadow: 0px 0px 3px rgb(0, 225, 255) ;
+    margin-top: 100px;
+    margin: 50px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+    
+}
+
+.menucard_section h2{
+    text-align: center;
+    padding: 20px;
+}
+
+.menucard_container{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    margin: auto;
+    justify-content: center;
+    gap: 30px;
+    
+}
+
+.food_itms{
+    box-shadow: 0px 0px 3px;
+    width: 250px;
+    text-align: center;
+    border-radius: 10px;
+    transition: calc(0.2s);
+      
+}
+
+.food_itms:hover{
+    transform: scale(1.04);
+}
+
+
+.food_itms img{
+    width: 250px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    
+}
+
+.food_name h5{
+    background-color: blueviolet;
+    padding: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 10px;
+    color: white;
+    
+}
+
+.food_name h5:hover{
+    background-color: cornflowerblue;
+
+}
+
+/* Responsive styles */
+
+@media (max-width: 1200px) {
+  .menucard_container {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 900px) {
+  .menucard_container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .menucard_container {
+    grid-template-columns: 1fr;
+  }
+
+  .food_itms {
+    width: 90%;
+    margin: auto;
+  }
+
+  .food_itms img {
+    width: 100%;
+  }
+}
+
+
+/* menu card end */
+
+
+
+/* review section :start */
+
+.review_section{
+
+}
+
+.review_section h2{
+    text-align: center;
+    padding: 30px;
+
+}
+
+.review_container{
+    display: grid;
+    grid-template-columns: auto auto;
+    margin: auto;
+    justify-content: center;
+    gap: 30px;
+
+    
+    
+
+}
+
+.star{
+    width: 400px;      
+    box-shadow: 0px 0px 5px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #464c71;
+}
+
+.star p{
+    text-align: justify;
+    color: wheat;
+}
+
+.profail_name h5{
+    align-items: center;
+    margin-top:10px;
+    padding-left: 10px;
+    color: white;
+
+}
+
+.profail_name{
+    display: flex;
+
+}
+
+.profail img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+
+}
+
+.star_review i{
+    color: yellow;
+}
+
+/* Responsive styles for review section */
+
+@media (max-width: 900px) {
+  .review_container {
+    grid-template-columns: 1fr;
+  }
+
+  .star {
+    width: 90%;
+    margin: auto;
+  }
+}
+
+@media (max-width: 600px) {
+  .star {
+    padding: 15px;
+  }
+
+  .profail img {
+    width: 40px;
+    height: 40px;
+  }
+
+  .profail_name h5 {
+    font-size: 16px;
+  }
+
+  .review_section h2 {
+    padding: 20px;
+    font-size: 24px;
+  }
+}
+
+
+/* review section end */
+
+
+
+/* feedback start */
+
+.feedback_section{
+
+}
+
+.feedback_section h2{
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 20px;
+
+}
+
+.feedback_container{
+    width: 400px;
+    box-shadow: 0px 0px 5px;
+    margin: auto;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.feedback_container h3{
+    padding: 3px;
+
+}
+
+.feedback_itms{
+    padding: 5px;
+    
+
+}
+
+.feedback_itms input{
+    width: 90%;
+    border-radius: 5px;
+    border: 1px solid black;
+
+}
+
+.feedback_itms textarea{
+    width: 90%;
+    border-radius: 5px;
+    border: 1px solid black;
+
+}
+
+.btn button{
+    border: none;
+    background-color: #464c71;
+    padding: 2px 20px;
+    text-align: left;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+
+}
+
+.btn button:hover{
+    background-color: aqua;
+    color: green;
+}
+
+/* risponsive design */
+
+@media (max-width: 500px) {
+  .feedback_container {
+    width: 90%;
+  }
+
+  .feedback_itms input,
+  .feedback_itms textarea {
+    width: 95%;
+  }
+
+  .btn button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+  }
+
+  .feedback_section h2 {
+    font-size: 24px;
+    padding: 30px 10px 10px;
+  }
+
+  .feedback_container h3 {
+    font-size: 18px;
+  }
+}
+
+/* feedback end */
+
+
+
+/* gallery section start */
+
+.gallery_section{
+    box-shadow: 0px 0px 5px;
+    margin: 50px;
+    border-radius: 10px;
+    
+
+}
+
+.gallery_section h2{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+.gallery_container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+    gap: 30px;
+    padding-bottom: 50px;
+}
+
+
+.image_itms img{
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    background-size: cover;
+    transition: calc(0.2s);
+}
+
+.image_itms img:hover{
+    transform: scale(1.05);
+
+}
+
+/* Responsive styles for gallery section */
+
+@media (max-width: 1024px) {
+  .gallery_container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .image_itms img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media (max-width: 600px) {
+  .gallery_container {
+    grid-template-columns: 1fr;
+  }
+
+  .image_itms img {
+    width: 90%;
+    height: auto;
+    margin: auto;
+  }
+
+  .gallery_section {
+    margin: 20px;
+  }
+
+  .gallery_section h2 {
+    font-size: 24px;
+    padding: 20px 10px;
+  }
+}
+
+
+
+
+/* gallery end */
+
+
+
+/* footer start */
+
+
+.footer_section{
+    background-color: rgb(0, 225, 255);
+    padding: 15px;
+
+
+}
+
+.copyright{
+    color: brown;
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+
+}
+
+
+
+/* footer end */
+
+
+
+

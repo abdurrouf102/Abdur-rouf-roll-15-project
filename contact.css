@@ -1,0 +1,188 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.container-fluid img{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+   
+}
+
+
+.navbar-nav .nav-link{
+    font-weight: bold;
+    
+}
+
+.navbar-nav .nav-link:hover{
+    box-shadow: 0px 0px 5px;
+    color: aqua;
+    border-radius: 10px 25px;
+}
+
+
+/* java script watch start */
+
+
+    .navbar-brand, .clock-box {
+      color: white;
+    }
+
+    .clock-box {
+      text-align: left;
+      font-family: 'Segoe UI', sans-serif;
+      line-height: 1.2;
+    }
+
+    .clock-time {
+      font-size: 16px;
+      font-weight: 600;
+    }
+
+    .clock-date {
+      font-size: 13px;
+    }
+
+
+/* java script watch end */
+
+
+/* navbar end */
+
+
+
+
+
+
+
+.contact_section h2{
+    text-align: center;
+    font-weight: 900;
+    color: black;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+
+.contact_container{
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-items: center;
+    margin: auto;
+   
+
+}
+
+.itms{
+    box-shadow: 0px 0px 5px;
+    padding: 30px;
+    width: 500px;
+    border-radius: 10px;
+    margin-bottom: 50px;
+
+}
+
+
+.info label{
+    display: block;
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+.info input{
+    margin: 10px;
+    width: 95%;
+    border-radius: 5px;
+    border: 1px solid green;
+ 
+}
+
+.info textarea{
+    margin: 10px;
+    width: 95%;
+    border-radius: 5px;
+    border: 1px solid green;
+
+}
+
+.btn button{
+    border: none;
+    background-color: black;
+    color: red;
+    border-radius: 5px;
+    font-weight: bold;
+
+}
+
+.btn button:hover{
+    background-color: green;
+    color: white;
+}
+
+
+
+
+.social_midea{
+    
+}
+
+.midea{
+    margin-bottom: 60px;
+}
+
+.midea a{
+    text-decoration: none;
+    font-weight: bold;
+    color: brown;
+    margin-bottom: 20px;
+    font-size: 20px;
+
+}
+
+.midea i{
+    color: blue;
+    font-size: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* footer start */
+
+
+.footer_section{
+    background-color: rgb(0, 225, 255);
+    padding: 15px;
+
+
+}
+
+.copyright{
+    color: brown;
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+
+}
+
+
+
+/* footer end */
+    
+
+
+
+
+
+

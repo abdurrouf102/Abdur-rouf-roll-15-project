@@ -1,0 +1,191 @@
+/* navbar start */
+
+
+.navbar-nav .nav-item a{
+
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+
+
+    /* যদি লেখার স্টাইল পরির্বতন করতে হয় তবে এই কমেন্ট তুলেই দিলে হবে  */
+
+  /* font-weight: 800;
+  font-family: "Caveat", cursive;
+  font-optical-sizing: auto;
+  font-size: 20px;
+  font-style: normal; */
+  
+}
+
+.navbar-nav .nav-item a:hover{
+    box-shadow: 0px 0px 5px yellow;
+    border-radius: 10px 20px;
+
+}
+
+.container-fluid img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+
+/* java script watch start */
+
+
+    .navbar-brand, .clock-box {
+      color: white;
+    }
+
+    .clock-box {
+      text-align: left;
+      font-family: 'Segoe UI', sans-serif;
+      line-height: 1.2;
+    }
+
+    .clock-time {
+      font-size: 16px;
+      font-weight: 600;
+    }
+
+    .clock-date {
+      font-size: 13px;
+    }
+
+/* java script watch end */
+
+/* navbar end */
+
+
+
+/* staf section start */
+
+.staf_section{
+
+}
+
+.staf_section h1{
+  text-align: center;
+  padding-bottom: 50px;
+  padding-top: 30px;
+  font-weight: 800;
+
+}
+
+.staf_container{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: center;
+  gap: 30px;
+  box-shadow: 0px 0px 3px;
+  padding: 30px;
+  margin-left: 180px;
+  margin-right: 180px;
+  border-radius: 10px;
+}
+
+.staf_itms{
+  width: 250px;
+  box-shadow: 0px 0px 5px aqua;
+  text-align: center;
+  background-color: #716f90;
+  border-radius: 10px;
+  transition: calc(0.2s);
+
+}
+
+
+.staf_itms:hover{
+  transform: scale(1.04);
+}
+
+
+
+.staf_itms img{
+  width: 200px;
+  height: 180px;
+  padding: 10px;
+  border-radius: 20px;
+
+}
+
+.staf_itms p{
+  color: white;
+  font-weight: bold;
+}
+
+.staf_itms h5{
+  color: aqua;
+  font-weight: 900;
+}
+
+
+
+
+/* staf section end */
+
+/* about company start */
+
+.company_container{
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: center;
+  gap: 20px;
+
+}
+
+.about_company{
+  width: 700px;
+  margin-top: 100px;
+  padding: 20px;
+  margin-bottom: 50px;
+  border: 1px solid aqua;
+  border-radius: 5px;
+
+}
+
+.about_company h3{
+  font-weight: 800;
+}
+
+.about_company p{
+  text-align: justify;
+  font-style: oblique;
+  font-weight: bold;
+}
+
+.company_image img{
+  width: 300px;
+  height: 220px;
+  margin-top: 100px;
+  border-radius: 5px;
+  
+}
+
+
+
+/* about company end */
+
+
+/* footer start */
+
+
+.footer_section{
+    background-color: rgb(0, 225, 255);
+    padding: 15px;
+
+
+}
+
+.copyright{
+    color: brown;
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+
+}
+
+
+
+/* footer end */
